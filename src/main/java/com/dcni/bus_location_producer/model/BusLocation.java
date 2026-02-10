@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BusLocation {
-    private Long id;
+    
     private String busId;
     private Double latitude;
     private Double longitude;
