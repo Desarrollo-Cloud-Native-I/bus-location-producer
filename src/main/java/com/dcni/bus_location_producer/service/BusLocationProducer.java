@@ -7,6 +7,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
 
+/**
+ * Servicio para enviar ubicaciones de buses a RabbitMQ.
+ * 
+ * @author GRUPO10
+ */
 @Service
 public class BusLocationProducer {
 

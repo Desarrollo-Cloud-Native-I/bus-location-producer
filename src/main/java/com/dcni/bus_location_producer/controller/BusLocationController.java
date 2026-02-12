@@ -6,6 +6,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * Controlador REST para recibir y publicar ubicaciones de buses.
+ * 
+ * @author GRUPO10
+ */
 @RestController
 @RequestMapping("/api/bus-location")
 public class BusLocationController {
